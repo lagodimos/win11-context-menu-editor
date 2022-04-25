@@ -39,8 +39,6 @@ new_menu_option = ttk.Radiobutton(window, text="New context menu", value="new_co
 apply_changes = ttk.Button(window, text=" Apply\nChanges", command = lambda: make_registry_changes(menu_var.get(), restart_explorer_var.get()), takefocus=False)
 message = ttk.Label(window, text="Changes will apply only to current user.")
 
-
-
 set_context_menu.place(x=10, y=20)
 restart_explorer.place(x=160, y=30)
 classic_menu_option.place(x=10, y=50)
